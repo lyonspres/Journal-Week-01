@@ -1,4 +1,10 @@
----
+----------
+title: "Journal Week 001"
+----------
+
+
+
+
 title: "Journal Week 001"
 output: html_document
 ---
