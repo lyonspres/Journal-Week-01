@@ -1,6 +1,9 @@
-##*Journal **Week 001***##
+# *Journal **Week 001***
 
-My name is **Preston Lyons** and I'm using ~~Github~~, sorry RStudio, to produce my first ever Journal entry. Though I don't have a Wikipedia page, you can find out about the city of Preston in England, and Lyon in France, in lieu of my name not *yet* being worth mentioning on the internet. 
+### Introducing Myself
+
+My name is **Preston Lyons** and I'm using ~~Github~~, sorry RStudio, to produce my first ever Journal entry. Though I don't have a Wikipedia page, you can find out about the city of [Preston](https://en.wikipedia.org/wiki/Preston,_Lancashire) in England, and [Lyon](https://en.wikipedia.org/wiki/Lyon) in France, in lieu of my name not *yet* being worth mentioning on the internet. 
+
 
 
 
