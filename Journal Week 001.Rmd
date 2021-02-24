@@ -1,3 +1,36 @@
+##*Journal **Week 001***##
+
+My name is **Preston Lyons** and I'm using ~~Github~~, sorry RStudio, to produce my first ever Journal entry. Though I don't have a Wikipedia page, you can find out about the city of Preston in England, and Lyon in France, in lieu of my name not *yet* being worth mentioning on the internet. 
+
+
+
+
+
+
+link to a website
+
+A footnote 1
+
+An inspirational quote
+
+BONUS: figure out how to add a bibliographic citation, such as [@darwin1964origin]
+
+A record of help you sought and offered.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ----------
 title: "Journal Week 001"
 ----------
