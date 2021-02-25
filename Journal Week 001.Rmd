@@ -1,80 +1,38 @@
-# *Journal **Week 001***
+# **Journal *Week 001***
 
 ### Introducing Myself
 
-My name is **Preston Lyons** and I'm using ~~Github~~, sorry RStudio, to produce my first ever Journal entry. Though I don't have a Wikipedia page, you can find out about the city of [Preston](https://en.wikipedia.org/wiki/Preston,_Lancashire) in England, and [Lyon](https://en.wikipedia.org/wiki/Lyon) in France, in lieu of my name not *yet* being worth mentioning on the internet. 
+% Trial 
+
+My name is **Preston Lyons** and I'm using ~~Github~~, sorry RStudio, to produce my first ever Journal entry. Though I don't have a Wikipedia page, you can find out about the city of [Preston](https://en.wikipedia.org/wiki/Preston,_Lancashire) in England, and [Lyon](https://en.wikipedia.org/wiki/Lyon)[^1] in France, in lieu of my name not *yet* being worth mentioning on Wikipedia.[^2] 
+
+Another fact about myself is that I am doing research in the [Applied Developmental Psychology Lab](https://applieddevelopmentallab.com/) which works a lot with children, and a quote I quite like regarding children is that
+
+> Even a minor event/ in the life of a child/ is an event of that child's world/ and thus a world event/
+
+by Gaston Bachelard.[^3] 
+
+I've included a list of the help received for this Journal, including a short summary of how they helped me:
+
+1. Joseph Bulbulia, whose enthusiasm for statistics encouraged me
+2. Johannes Karl, who showed me the ropes with downloading, using, and figuring out how to use:
+- R
+- RStudio
+- Git
+- Github
+- GitKraken
+3. 
+
+
+[^1]: Note: again, for clarity, my name is Lyons, not Lyon.
+[^2]: Also note: I am neither English, nor French
+[^3]: I found a record of this quote [here](https://www.goodreads.com/quotes/471937-even-a-minor-event-in-the-life-of-a-child)
 
 
 
 
 
-
-
-link to a website
-
-A footnote 1
-
-An inspirational quote
 
 BONUS: figure out how to add a bibliographic citation, such as [@darwin1964origin]
 
 A record of help you sought and offered.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------
-title: "Journal Week 001"
-----------
-
-Hey *Nethmi*, how was your **afternoon**? 
-
-
-
-title: "Journal Week 001"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## R Markdown Potato
-
-I'm learning to **commit**
-
-Testing *testing* 1 2 3 
->how is Kraken working on this occassion?
-Lessssshgo
-Furniture 
-try again he says, ominously 
-we're scientists, *we're dreamers,* **we're doers**
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
