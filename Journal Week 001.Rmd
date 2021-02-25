@@ -1,14 +1,11 @@
-# **Journal *Week 001***
-
+# Journal Week 01
 ### Introducing Myself
 
-% Trial 
+My name is **Preston Lyons** and I'm using ~~Github~~ RStudio, to produce my first ever Journal entry. Though I don't have a Wikipedia page, you can find out about the city of [Preston](https://en.wikipedia.org/wiki/Preston,_Lancashire) in England, and [Lyon](https://en.wikipedia.org/wiki/Lyon)[^1] in France, in lieu of my name not *yet* being worth mentioning on Wikipedia.[^2] 
 
-My name is **Preston Lyons** and I'm using ~~Github~~, sorry RStudio, to produce my first ever Journal entry. Though I don't have a Wikipedia page, you can find out about the city of [Preston](https://en.wikipedia.org/wiki/Preston,_Lancashire) in England, and [Lyon](https://en.wikipedia.org/wiki/Lyon)[^1] in France, in lieu of my name not *yet* being worth mentioning on Wikipedia.[^2] 
+Another fact about myself is that I am doing research in the [Applied Developmental Psychology Lab](https://applieddevelopmentallab.com/) which does a lot of work with children, and a quote I quite like regarding children is that
 
-Another fact about myself is that I am doing research in the [Applied Developmental Psychology Lab](https://applieddevelopmentallab.com/) which works a lot with children, and a quote I quite like regarding children is that
-
-> Even a minor event/ in the life of a child/ is an event of that child's world/ and thus a world event/
+> Even a minor event in the life of a child is an event of that child's world and thus a world event.
 
 by Gaston Bachelard.[^3] 
 
@@ -21,18 +18,18 @@ I've included a list of the help received for this Journal, including a short su
 - Git
 - Github
 - GitKraken
-3. 
+3. Some online glossary's and tutorials:
+- [Commonmark](https://commonmark.org/help/tutorial/index.html); - Danielle Navarro's [RMarkdown Tutorial](https://slides.djnavarro.net/starting-rmarkdown/#1)
+- [RMarkdown's](https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html#Pandoc_Markdown) information
+- The [PSYC447 course materials page](https://go-bayes.github.io/psych-447/about.htm) authored by @Joseph Bulbulia
 
+My impressions of the overall process is that it's clunky, it will lead to teething issues, but will only get easier from here, and the end product is going to be worth it. Johannes spent a lot of time during the workshop getting Git and R to talk, and since he solved those problems, I've been able to use RStudio without much hassle. I've needed to search things up regularly when doing this journal, but am already starting to retain information, and save, commit, push, and knit my work more and more automatically. It's exciting to see how far I've already come, and am looking forward to the challenges I anticipate with incorporating statistics to this foundation. Unfortunately, I've not yet solved how to do a bibliographic citation. 
 
-[^1]: Note: again, for clarity, my name is Lyons, not Lyon.
+## Bibliographic Citation
+
+@Joseph Bulbulia
+
+------------------
+[^1]: Note: just for clarity, my name is Lyons, not Lyon.
 [^2]: Also note: I am neither English, nor French
 [^3]: I found a record of this quote [here](https://www.goodreads.com/quotes/471937-even-a-minor-event-in-the-life-of-a-child)
-
-
-
-
-
-
-BONUS: figure out how to add a bibliographic citation, such as [@darwin1964origin]
-
-A record of help you sought and offered.
