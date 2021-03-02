@@ -1,0 +1,187 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\usepackage[normalem]{ulem}
+% Avoid problems with \sout in headers with hyperref
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\hypertarget{journal-week-01}{%
+\section{Journal Week 01}\label{journal-week-01}}
+
+\hypertarget{introducing-myself}{%
+\subsubsection{Introducing Myself}\label{introducing-myself}}
+
+My name is \textbf{Preston Lyons} and I'm using \sout{Github} RStudio,
+to produce my first ever Journal entry. Though I don't have a Wikipedia
+page, you can find out about the city of
+\href{https://en.wikipedia.org/wiki/Preston,_Lancashire}{Preston} in
+England, and \href{https://en.wikipedia.org/wiki/Lyon}{Lyon}\footnote{Note:
+  just for clarity, my name is Lyons, not Lyon.} in France, in lieu of
+my name not \emph{yet} being worth mentioning on Wikipedia.\footnote{Also
+  note: I am neither English, nor French}
+
+Another fact about myself is that I am doing research in the
+\href{https://applieddevelopmentallab.com/}{Applied Developmental
+Psychology Lab} which does a lot of work with children, and a quote I
+quite like regarding children is that
+
+\begin{quote}
+Even a minor event in the life of a child is an event of that child's
+world and thus a world event.
+\end{quote}
+
+by Gaston Bachelard.\footnote{I found a record of this quote
+  \href{https://www.goodreads.com/quotes/471937-even-a-minor-event-in-the-life-of-a-child}{here}}
+
+I've included a list of the help received for this Journal, including a
+short summary of how they helped me:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Joseph Bulbulia, whose enthusiasm for statistics encouraged me
+\item
+  Johannes Karl, who showed me the ropes with downloading, using, and
+  figuring out how to use:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  R
+\item
+  RStudio
+\item
+  Git
+\item
+  Github
+\item
+  GitKraken
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Some online glossary's and tutorials:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://commonmark.org/help/tutorial/index.html}{Commonmark}; -
+  Danielle Navarro's
+  \href{https://slides.djnavarro.net/starting-rmarkdown/\#1}{RMarkdown
+  Tutorial}
+\item
+  \href{https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html\#Pandoc_Markdown}{RMarkdown's}
+  information
+\item
+  \href{https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html?fbclid=IwAR2UZgrVmVVolAr08TxKGeAEd-dxcb0gJHBgI477E48ZAuR7ZHpKRr9g-js}{Bookdown}
+\item
+  The \href{https://go-bayes.github.io/psych-447/about.htm}{PSYC447
+  course materials page} authored by @Joseph Bulbulia
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  I asked a classmate, Cam Taylor, for help with the bibliography
+  section - and offered help if he was stuck in any area too.
+\end{enumerate}
+
+My impressions of the overall process is that it's clunky, it will lead
+to teething issues, but will only get easier from here, and the end
+product is going to be worth it. Johannes spent a lot of time during the
+workshop getting Git and R to talk, and since he solved those problems,
+I've been able to use RStudio without much hassle. I've needed to search
+things up regularly when doing this journal, but am already starting to
+retain information, and save, commit, push, and knit my work more and
+more automatically. It's exciting to see how far I've already come, and
+am looking forward to the challenges I anticipate with incorporating
+statistics to this foundation. Unfortunately, I've not yet solved how to
+do a bibliographic citation, despite Cam's assitance.
+
+\hypertarget{attempted-bibliographic-citation}{%
+\subsection{Attempted Bibliographic
+Citation}\label{attempted-bibliographic-citation}}
+
+bibliography: References.bib
+
+references.bib
+
+@Manual
+
+@Joseph Bulbulia
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\end{document}
